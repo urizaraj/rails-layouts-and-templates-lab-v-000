@@ -6,6 +6,6 @@ class StoreAdminController < ApplicationController
   end
 
   def invoice
-    render layout: none
+    render layout: false
   end
 end
